@@ -1,0 +1,47 @@
+#info{
+	background: #ffffff;
+	color: #cf2a27;
+	text-align: center;
+}
+
+#info .contenedor{	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-foda{
+	background: darkgrey;
+	margin: 20px;
+	width: 250px;
+	border: 3px solid black;	
+	text-align: center;
+}
+
+.info-foda h3{
+	margin: 10px;
+	font-size: 20px;
+}
+
+.info-foda p{
+	font-size: 18px;
+	margin: 10px;
+}
+
+.info-foda img{
+	width: 100%;
+}
+
+@media(min-width: 480px){
+	.info-foda{
+		width: 40%;
+	}
+}
+
+@media(min-width: 1024px){
+	.info-foda{
+		width: 30%;
+		margin: 20px 50px;
+	}
+
+}
