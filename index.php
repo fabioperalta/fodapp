@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Fodapp</title>
 	<meta name="viewport" content="widht=deice-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
-	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="index.css">
 	<script src="js/jquery-1.11.3.min.js"></script>
 </head>
 <body>
@@ -13,7 +13,7 @@
 			<h1>FODAPP</h1>
 			<input type="checkbox" id="menu-bar">
 			<label for="menu-bar">
-				<img src="img/menu.png" alt="Menú">
+				<img src="menu.png" alt="Menú">
 			</label>
 			<nav class="menu">
 				<a href="">Inicio</a>
