@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fodapp | Matriz Foda</title>
+	<meta name="viewport" content="widht=deice-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="css/matrizfoda.css">
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<h1>FODAPP</h1>
+			<input type="checkbox" id="menu-bar">
+			<label for="menu-bar">
+				<img src="img/menu.png" alt="Menú">
+			</label>
+			<nav class="menu">
+				<a href="index.php">Inicio</a>
+				<a href="matrizfoda.php">Matriz Foda</a>
+				<a href="">Iniciar Sesión</a>
+			</nav>
+		</div>
+	</header>
+	
+	<main>
+		<section id = "titulo">
+			<div class = "contenedor">
+				<h2>GENERAR MATRIZ FODA</h2>
+				<p>En este apartado registre las generalidad de su Matriz FODA.</p>
+			</div>			
+		</section>
+
+		<section id = "generalidades">
+			<div class = "tabla">
+				<h3>GENERALIDADES DE MATRIZ FODA</h3>
+				<form action="">
+					<label for="">Nombre de Matriz FODA</label>
+					<input type="text" id="nombreMatriz" name="nombreMatriz" placeholder="Nombre del Matriz Foda">
+
+					<label for="">Tipo de Matriz FODA</label>
+					<select id="tipoMatriz" type="text" name="tipoMatriz">
+						<option value = '1'> Matriz Foda del Negocio </option>
+						<option value = '2'> Matriz Foda de TI </option>
+					</select>
+
+					<label for="">Empresa</label>
+					<select id="empresa" type="text" name="empresa">
+						<option value = '1'> Empresa1 </option>
+						<option value = '2'> Empresa2 </option>
+					</select>
+
+					 <button class="btn" type="submit">REGISTRAR FACTORES</button>
+				</form>
+		</section>
+	</main>
+
+	<footer>
+		<div class="contenedor">
+			<p class="copy">FodApp &copy; 2016</p>
+			<div class="sociales">
+				<a href="">
+					<img src="img/facebook.png" alt="Síguenos en Facebook" title="Síguenos en Facebook" class="agrandar">
+				</a>
+				<a href="">
+					<img src="img/twitter.png" alt="Síguenos en Twitter" title="Síguenos en Twitter" class="agrandar">
+				</a>
+				<a href="">
+					<img src="img/instagram.png" alt="Síguenos en Instagram" title="Síguenos en Instagram" class="agrandar">
+				</a>
+				<a href="">
+					<img src="img/contacto.png" alt="Contáctanos" title="Contáctanos" class="agrandar"> 
+				</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
