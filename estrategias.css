@@ -1,0 +1,138 @@
+@import url(menu.css);
+@import url(footer.css);
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body,html{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background: #112231;
+	color: #fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.contenedor{
+	width: 98%;
+	margin: auto;
+}
+
+h1{
+	float: left;
+}
+
+header .contenedor{
+	display: table;
+}
+
+section{
+	width: 100%;
+}
+
+#titulo{
+	background: darkgray;
+}
+
+#titulo .contenedor{
+	margin-top: 50px;	
+}
+
+#titulo .contenedor h2{
+	padding: 50px 0px 20px;	
+	text-align: center;
+	font-size: 30px;	
+}
+
+#titulo .contenedor p{
+	padding: 0px 0px 20px;
+	text-align: justify;
+}
+
+#tabla {
+	width: 100%;
+	margin: 10px auto;
+}
+
+#tabla h3{
+	text-align: center;
+	font-size: 18px;
+	display: block;
+	background-color: #2780e3;
+	padding: 10px 0px;
+	color: #ffffff;
+	margin-top: 30px;
+}
+
+table{
+	width: 100%;
+	max-width: 100%;
+	empty-cells:hide;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin-top: 20px;
+}
+
+table:first-child>thead:first-child>tr:first-child>th{
+	border-top: 0px
+}
+
+table>thead>tr>th{
+	padding: 5px;
+	border: 1px solid;
+	font-weight:bold;
+	font-size: 16px;
+}
+
+table th{
+	text-align: center;
+	vertical-align: bottom;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+#item{
+	width: 5%;	
+}
+#factor{
+	width: 90%;
+}
+
+#Seleccionar{
+	width: 5%;
+}
+
+.btn{
+	background-color: #2D752A;
+	color: #ffffff; 
+	padding: 10px;	
+	text-align: center;
+	text-decoration: none;
+}
+
+@media(min-width: 1024px){
+	.contenedor{
+		width: 1000px;
+	}
+
+	#tabla>.contenedor{
+		width: 60%;
+	}
+	
+	.modal{		
+		left: 20%;
+		width: 60%;
+	}	
+}
