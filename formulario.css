@@ -1,0 +1,57 @@
+.tabla {
+	width: 90%;
+	margin: 40px auto;
+}
+
+.tabla h3{
+	text-align: center;
+	font-size: 18px;
+	display: block;
+	background-color: #2780e3;
+	padding: 10px 0px;
+	color: #ffffff;
+}
+
+.tabla form{
+	border: 1px solid #2780e3;
+	padding: 15px;
+}
+
+.tabla label{
+	display: block;
+	font-size: 15px;
+	padding: 10px 0px;
+	font-weight: bold;
+}
+
+.tabla input{
+	border: 1px solid gray;
+	width: 100%;
+	padding: 10px;
+}
+
+.tabla select{
+	border: 1px solid gray;
+	width: 100%;
+	padding: 10px;
+}
+
+.tabla textarea{
+	border: 1px solid gray;
+	width: 100%;
+	padding: 10px;
+	height: 100px;
+}
+
+.tabla button{
+	background-color: #2D752A;
+	color: #ffffff; 
+	padding: 10px;
+	margin-top: 10px;
+}
+
+@media(min-width: 1024px){
+	.tabla{
+		width: 700px;
+	}
+}
