@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fodapp|Estrategias</title>
+	<meta name="viewport" content="widht=deice-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="factores.css">
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<h1>FODAPP</h1>
+			<input type="checkbox" id="menu-bar">
+			<label for="menu-bar">
+				<img src="img/menu.png" alt="Menú">
+			</label>
+			<nav class="menu">
+				<a href="index.php">Inicio</a>
+				<a href="matrizfoda.php">Matriz Foda</a>
+				<a href="">Iniciar Sesión</a>
+			</nav>
+		</div>
+	</header>	
+
+	<main>
+		<section id = "titulo">
+			<div class = "contenedor">
+				<h2>REGISTRO DE FACTORES</h2>
+				<p>En este apartado registre los diferentes factores que usted desea visualizar en su matriz FODA.</p>
+			</div>			
+		</section>	
+		<section id = "tabla">
+			<div class = "contenedor">
+				<h3>Factores Registrados</h3>
+				<table>
+					<thead>
+						<tr>
+							<th id="item">Item</th>
+							<th id="factor">Amenazas</th>
+						</tr>						
+					</thead>
+					<tbody>
+						<tr>
+							<th id="item" >2.</th>
+							<th id="factor">dsadasdas</th>
+						</tr>
+						<tr>
+							<th id="item">2.</th>
+							<th id="factor">dsadasdas</th>
+						</tr>						
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th id="item">Item</th>
+							<th id="factor">Debilidades</th>
+						</tr>						
+					</thead>
+					<tbody>
+						<tr>
+							<th id="item" >2.</th>
+							<th id="factor">dsadasdas</th>
+						</tr>
+						<tr>
+							<th id="item">2.</th>
+							<th id="factor">dsadasdas</th>
+						</tr>						
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th id="item">Item</th>
+							<th id="factor">Amenazas</th>
+						</tr>						
+					</thead>
+					<tbody>
+						<tr>
+							<th id="item" >2.</th>
+							<th id="factor">dsadasdas</th>
+						</tr>
+						<tr>
+							<th id="item">2.</th>
+							<th id="factor">dsadasdas</th>
+						</tr>						
+					</tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th id="item">Item</th>
+							<th id="factor">Amenazas</th>
+						</tr>						
+					</thead>
+					<tbody>
+						<tr>
+							<th id="item" >2.</th>
+							<th id="factor">dsadasdas</th>
+						</tr>
+						<tr>
+							<th id="item">2.</th>
+							<th id="factor">dsadasdas</th>
+						</tr>						
+					</tbody>
+				</table>
+			</div>
+		</section>	
+		<section id = "botones">
+			<div class="contenedor">
+				<div>
+					<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+					<input type="button" value="REGISTRAR FACTOR" id="nuevoFactor" class="btn"/>
+					</a>
+
+					<a href="estrategias.php">
+				 	<input type="button" value="REGISTRAR ESTRATEGIAS" id="nuevaEstrategia" class="btn" />
+				 	</a>				 
+				</div>
+			</div>
+		</section>
+
+		<!-- base semi-transparente -->
+	    <div id="fade" class="overlay" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"></div>
+	<!-- fin base semi-transparente -->		
+
+		<div id="light" class="modal"> 
+			
+			<div class="tabla">
+				<h4>Registro de Factores</h4>
+				<form action="" >
+					<label for="">Factor</label>
+					<select type="text" id="factor" name="factor">
+		                <option value=''>Seleccione Factor</option>
+		                <option value='1'>Amenazas</option>
+		                <option value='2'>Debilidades</option>
+		                <option value='3'>Fortalezas</option>
+		                <option value='4'>Oportunidad</option>
+	            	</select>
+					<label for="">Descripción</label>
+	            	<textarea type="text" name="descripcionFactor" id="descripcionFactor" placeholder="Descripción del Factor"></textarea>
+	            	<input type="button"  id="guardarFactorInterno" value="GUARDAR"/>
+
+	            	<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">
+	            		CANCELAR
+	            	</a>	            		
+				</form>				
+			</div>
+    	</div>		
+	</main>
+		
+	<footer>
+		<div class="contenedor">
+			<p class="copy">FodApp &copy; 2016</p>
+			<div class="sociales">
+				<a href="">
+					<img src="facebook.png" alt="Síguenos en Facebook" title="Síguenos en Facebook" class="agrandar">
+				</a>
+				<a href="">
+					<img src="twitter.png" alt="Síguenos en Twitter" title="Síguenos en Twitter" class="agrandar">
+				</a>
+				<a href="">
+					<img src="instagram.png" alt="Síguenos en Instagram" title="Síguenos en Instagram" class="agrandar">
+				</a>
+				<a href="">
+					<img src="contacto.png" alt="Contáctanos" title="Contáctanos" class="agrandar"> 
+				</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
